@@ -1,3 +1,7 @@
+/**
+ * @autho
+ */
+
 /*
 tipos de dados
 
@@ -18,14 +22,20 @@ toFloat(): Float
 toDouble(): Double
 toChar(): Char
 
+var (valor mutavel, CamelCase)
+
+val (valor imutavel, CamelCase) similiar ao final em java
+
+const val (valor imutavel, SNAKE_CASE) tem que ser declarada fora da função main
+
 val name1 = "rafael" //não pode ser alterado depois
 var greeting: String? = null
 fun main() {
     greeting = "olá"
-    if(greeting != null){
+    if (greeting != null){
         println(name1)
         println(greeting)
-    }else{
+    } else {
         println(name1)
         println("hi")
     }
@@ -54,12 +64,12 @@ fun main() {
     println(myName)
 }
 
-fun sayHello(){
+fun sayHello() {
     println(getGreeting())
 }
 
 fun getGreeting() = "hello world" //função de expressao unica
-fun main(){
+fun main() {
     println(getGreeting)
     sayHello()
 }
@@ -111,4 +121,5 @@ fun main() {
     val Person1 = Person(firstName = "olá", lastName = " tchau")
     println(Person1.firstName)
     Person1.lastName
+    println("Hello World")
 }
