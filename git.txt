@@ -1,0 +1,26 @@
+comando para nao levar arquivos que estava corrigindo em outra branch e levar ela junto para outras
+git stash save "referencia"
+
+comando para listar as stashs
+git stash list
+
+para voltar ao normal
+git stash pop "indice do stash"
+
+comando para limpar o stash
+git stash clear
+
+criar branch
+git checkout -b nomedabranch
+
+deletar branch
+git checkout -d nomedabranch
+
+renomear branch estando nela
+git checkout -m nomedabranch
+
+renomear estando em outra branch
+git checkout -m nomeantigo nomenovo
+
+comando para ver no modo grafico os merges e commits
+git log --graph
