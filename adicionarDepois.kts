@@ -10,3 +10,8 @@ fun main() {
     var c:Int = a.plus(b)
     println(c)
 }
+
+//elvis operator
+
+var number = a?: b?: 0
+	     se a for true ele atribui number igual a A e caso os dois forem falsos o 0 é atribuido
